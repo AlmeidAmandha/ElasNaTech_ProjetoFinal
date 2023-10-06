@@ -1,0 +1,233 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar {
+    z-index: 99;
+}
+#search:hover {
+    color: white;
+    background-color: orange;
+}
+#logo:hover {
+    letter-spacing: 2px;
+    font-size: 150%;
+}
+#link:hover {
+    color: orange;
+}
+.caminho-pagina nav {
+    padding-top: 15%;
+}
+.caminho-pagina a {
+    color: black;
+    text-decoration: none;
+}
+.caminho-pagina a:hover {
+    color: orange;
+}
+.meio {
+    background-color: #e6e3e3;
+}
+#produtos-detalhes {
+    display: flex;
+    margin-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+#produtos-detalhes .single-pro-image {
+    width: 40%;
+    margin-right: 50px;
+    margin-left: 100px;
+    padding-left: 10%;
+}
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+#produtos-detalhes .single-produto-detalhes {
+    width: 50%;
+    padding-top: 5px;
+}
+#produtos-detalhes .single-produto-detalhes h4 {
+    margin-top: 3%;
+    padding: 5px 0 15px 0;
+}
+#produtos-detalhes .single-produto-detalhes select {
+    display: block;
+    padding: 5px 10px;
+    padding-bottom: 10px;
+}
+#produtos-detalhes .single-produto-detalhes input {
+    margin-top: 3px;
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+#produtos-detalhes .single-produto-detalhes input:focus {
+    outline: none;
+}
+#produtos-detalhes .single-produto-detalhes a {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 2px;
+}
+#produtos-detalhes .single-produto-detalhes a:hover {
+    background-color: orange;
+    font-weight: bold;
+}
+#produtos-detalhes .single-produto-detalhes span {
+    padding-top: 0%;
+    line-height: 25px;
+}
+#tamanho {
+    background-color: whitesmoke;
+    border: none;
+}
+#tamanho option {
+    background-color: whitesmoke;
+    color: black;
+}
+#number {
+    background-color: whitesmoke;
+    border: none;
+}
+.like {
+    cursor: pointer;
+}
+.like:hover {
+    color: orange;
+    font-size: 30px;
+}
+#promo {
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: orange;
+}
+#promo h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+#promo p {
+    font-size: 14px;
+    color: white;
+}
+#promo span {
+    color: orangered;
+}
+#promo .form {
+    display: flex;
+    width: 40%;
+}
+#promo input {
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+}
+#promo button {
+    background-color: black;
+    color: white;
+    white-space: nowrap;
+    border: none;
+    border-radius: 4px;
+}
+#promo button:hover {
+    letter-spacing: 2px;
+}
+footer {
+    background: black;
+    padding: 85px 50px;
+}
+.single-content {
+    padding: 115px 0;
+    text-align: center;
+}
+.single-box p {
+    color: white;
+    line-height: 1.9;
+}
+.single-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: whitesmoke;
+}
+.single-box .card-area i {
+    color: whitesmoke;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.single-box ul {
+    list-style: none;
+    padding: 0;
+}
+.single-box ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    line-height: 2.5;
+    font-weight: 100;
+}
+.single-box h2 {
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 700;
+}
+#basic-addon2 {
+    color: whitesmoke;
+}
+.socials a {
+    font-size: 18px;
+    color: whitesmoke;
+    padding-right: 8px;  
+}
+.single-box a:hover {
+    color: orange;
+}
+@media (max-width: 766px) {
+    #produtos-detalhes .single-pro-image{
+        padding-left: 0%;
+        margin-left: 0px;
+    } 
+    .single-box {
+        margin-bottom: 10%;
+    }   
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .single-box {
+        margin-bottom: 10%;
+    }
+}  
+@media (max-width: 991px) {
+    #promo .form{
+        display: flex;
+        width: 100%;
+    }
+}
+@media (max-width: 600px){
+    #produtos-detalhes {
+        display: flex;
+        flex-direction: column;
+    }
+    #produtos-detalhes .single-pro-image{
+        width: 100%;
+        margin-right: 0px;
+    }
+    #produtos-detalhes .single-produto-detalhes{
+        width: 100%;
+    }
+}

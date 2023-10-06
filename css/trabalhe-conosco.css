@@ -1,0 +1,108 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar {
+    z-index: 99;
+}
+#search:hover {
+    color: white;
+    background-color: orange;
+}
+#logo:hover {
+    letter-spacing: 2px;
+    font-size: 150%;
+}
+#link:hover {
+    color: orange;
+}
+.meio {
+    background-color: #eceaea;
+}
+.caminho-pagina nav {
+    padding-top: 15%;
+}
+.caminho-pagina a {
+    color: black;
+    text-decoration: none;
+}
+.caminho-pagina a:hover {
+    color: orange; 
+}
+.trabalhe-conosco p {
+    padding-bottom: 5px;
+    border-bottom: 3px solid orange;
+}
+.trabalhe-conosco button {
+    background-color: black;
+    border: none;
+}
+.trabalhe-conosco button:hover {
+    background-color: orange;
+}
+.trabalhe-conosco {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+footer {
+    background: black;
+    padding: 85px 50px;
+}
+.single-content {
+    padding: 115px 0;
+    text-align: center;
+}
+.single-box p {
+    color: white;
+    line-height: 1.9;
+}
+.single-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: whitesmoke;
+}
+.single-box .card-area i {
+    color: whitesmoke;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.single-box ul {
+    list-style: none;
+    padding: 0;
+}
+.single-box ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    line-height: 2.5;
+    font-weight: 100;
+}
+.single-box h2 {
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 700;
+}
+#basic-addon2 {
+    color: whitesmoke;
+}
+.socials a {
+    font-size: 18px;
+    color: whitesmoke;
+    padding-right: 8px;  
+}
+.single-box a:hover {
+    color: orange;
+}
+@media (max-width: 766px) {
+    .single-box {
+        margin-bottom: 10%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .single-box {
+        margin-bottom: 10%;
+    }
+}  
+@media (min-width: 740px) and (max-width: 991px) {
+    .caminho-pagina nav{
+        padding-top: 10%;
+    }
+} 

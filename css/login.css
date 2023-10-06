@@ -1,0 +1,129 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar {
+    z-index: 99;
+}
+#search:hover {
+    color: white;
+    background-color: orange;
+}
+#logo:hover {
+    letter-spacing: 2px;
+    font-size: 150%;
+}
+#link:hover {
+    color: orange;
+}
+.ei {
+    padding-top: 5%;
+}
+section {
+    background-color: #eceaea;
+    padding-bottom: 5%;
+}
+.space p {
+    margin-left: 5%;
+}
+.mt-3 {
+    border-bottom: 1px solid rgb(163, 163, 163);
+}
+.mt-3 a {
+    color: black;
+}
+.mt-3 a:hover {
+    color: orange;
+}
+.mr-2 {
+    margin-right: 0.5rem;
+    background-color: black;
+    border: none;
+}
+.mr-2:hover {
+    background-color: orange;
+}
+.b2 {
+    background-color: orange;
+    border: none;
+}
+.b2:hover {
+    background-color: orangered;
+}
+.mt-2 {
+    color: black;
+}
+.mt-2:hover {
+    color: orange;
+}
+footer {
+    background: black;
+    padding: 85px 50px;
+}
+.single-content {
+    padding: 115px 0;
+    text-align: center;
+}
+.single-box p {
+    color: white;
+    line-height: 1.9;
+}
+.single-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: whitesmoke;
+}
+.single-box .card-area i {
+    color: whitesmoke;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.single-box ul {
+    list-style: none;
+    padding: 0;
+}
+.single-box ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    line-height: 2.5;
+    font-weight: 100;
+}
+.single-box h2 {
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 700;
+}
+#basic-addon2 {
+    color: whitesmoke;
+}
+.socials a {
+    font-size: 18px;
+    color: whitesmoke;
+    padding-right: 8px;  
+}
+.single-box a:hover {
+    color: orange;
+}
+@media (max-width: 766px) {
+    .single-box {
+        margin-bottom: 10%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .single-box {
+        margin-bottom: 10%;
+    }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+    .card{
+        width: 115%;
+    }
+}
+@media (max-width: 991px) {
+    .space{
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .ei{
+        padding-top: 0%;
+    }
+}

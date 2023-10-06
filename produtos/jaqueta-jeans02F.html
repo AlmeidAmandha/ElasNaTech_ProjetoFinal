@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/favicon.png" type="image/x-icon">
+    <title>Jaqueta Jeans - WE JEANS</title>
+    <link rel="stylesheet" type="text/css" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/produtos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
+    <style>
+      .jaquetas{
+        background-color: #eceaea;
+        margin-top: 0.5%;
+      }
+      .jaquetas img:hover {
+        transform: scale(0.9) translateY(15px);
+        cursor: pointer;
+      }
+      .card a{
+        background-color: black;
+        border: none;
+      }
+      .card a:hover{
+        background-color: orange;
+      }
+    </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-fixed top-0 start-0 w-100">
+      <div class="container">
+        <a class="navbar-brand d-lg-none fw-bold" href="index.html" id="logo">WE JEANS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"> 
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse p-2 flex-column" id="navbarContent">
+          <div class="links d-flex justify-content-center justify-content-lg-between flex-column flex-lg-row w-100">
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="O que está procurando?">
+              <button class="btn btn-outline-light" type="submit" id="search">
+                <i class="bi bi-search"></i>
+              </button>
+            </form>
+            <a class="navbar-brand d-none d-lg-block fw-bold" href="../index.html" id="logo">WE JEANS</a>
+            <ul class="navbar-nav">
+              <li class="nav-item d-flex align-items-center">
+                <a class="nav-link mx-2" href="../login.html" id="link"><i class="bi bi-person"></i> Minha Conta</a>
+              </li>
+              <li class="nav-item d-flex align-items-center">
+                <a class="nav-link mx-2" href="../login-2.html" id="link"><i class="bi bi-cart"></i> Carrinho</a>
+                <span class="badge rounded-pill bg-secondary">0</span>
+              </li>
+            </ul>
+          </div>
+          <div class="d-block w-100">
+            <ul class="navbar-nav d-flex justify-content-center align-items-center pt-3">
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="../wearmario.html" id="link">We Armário</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="../calcas.html" id="link">Calças</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="../jaquetas.html" id="link">Jaquetas</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="../quemsou.html" id="link">Quem Sou?</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="../contato.html" id="link">Fale Conosco</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="meio">
+    <section class="caminho-pagina">
+      <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item ms-5"><a href="../index.html">Loja We Jeans</a></li>
+            <li class="breadcrumb-item"><a href="../calcas.html">Calças</a></li>
+          </ol>
+      </nav>
+    </section>
+
+    <section id="produtos-detalhes" class="section-p1">
+      <div class="single-pro-image">
+        <img src="../img/produtos/pdts_feminino/jaquetas/pdt05_img01.jpeg" width="100%" id="mainImg" alt="cropped-img01">
+        <div class="small-img-group">
+          <div class="small-img-col">
+            <img src="../img/produtos/pdts_feminino/jaquetas/pdt05_img02.jpeg" width="100%" class="small-img" alt="cropped-img02">
+          </div>
+          <div class="small-img-col">
+            <img src="../img/produtos/pdts_feminino/jaquetas/pdt05_img03.jpeg" width="100%" class="small-img" alt="cropped-img03">
+          </div>
+          <div class="small-img-col">
+            <img src="../img/produtos/pdts_feminino/jaquetas/pdt05_img04.jpeg" width="100%" class="small-img" alt="cropped-img04">
+          </div>
+          <div class="small-img-col">
+            <img src="../img/produtos/pdts_feminino/jaquetas/pdt05_img01.jpeg" width="100%" class="small-img" alt="cropped-img01">
+          </div>
+        </div>
+      </div>
+      <div class="single-produto-detalhes">
+        <h1 class="fw-bold">JAQUETA CROPPED EM JEANS</h1>
+        <h3>R$ 179,90</h3>
+        <p>Em até 7x de R$ 25,70 no Cartão We Jeans</p>
+        <select id="tamanho">
+          <option>Escolha o Tamanho</option>
+          <option>P</option>
+          <option>M</option>
+          <option>G</option>
+          <option>GG</option>
+        </select>
+        <input id="number" type="number" value="1">
+        <a href="../login-2.html" class="btn btn-primary"><i class="bi bi-cart" style="font-size:20px;"></i> COMPRAR AGORA</a>
+        <h4 class="fw-bold">Detalhes do Produto</h4>
+        <span>A "Jaqueta Cropped em Jeans" é uma peça moderna e estilosa. Seu design cropped, mais curto que uma jaqueta convencional, proporciona um visual jovem e descolado. Ideal para combinar com peças de cintura alta, destacando a silhueta. Versátil e elegante, pode ser usada em diferentes ocasiões, conferindo um toque fashion ao look. Uma escolha perfeita para quem busca estilo e originalidade.</span>
+      </div>
+    </section>
+
+    <section class="jaquetas">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="text-center mt-2 fw-bold">MAIS MODELOS</h2>
+          </div>
+          <div class="col-12 col-sm-4 py-4">
+            <div class="card" style="position: relative;">
+              <img src="../img/produtos/pdts_feminino/jaquetas/pdt04_img01.jpeg" class="card-img-top" alt="jaqueta alongada">
+              <div style="position: absolute; top: 10px; right: 10px;">
+                <i class="like bi bi-suit-heart-fill" style="font-size: 25px;"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title fw-bold">JAQUETA ALONGADA</h5>
+                <h6 class="card-text fw-bolder">R$ 239,90</h6>
+                <p class="card-text">7x de R$ 34,27 no Cartão We Jeans</p>
+                <a href="jaqueta-jeans01F.html" class="btn btn-primary"><i class="bi bi-cart" style="font-size:20px;"></i> Adicionar ao carrinho</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 py-4">
+            <div class="card" style="position: relative;">
+              <img src="../img/produtos/pdts_feminino/jaquetas/pdt05_img01.jpeg" class="card-img-top" alt="jaqueta cropped">
+              <div style="position: absolute; top: 10px; right: 10px;">
+                <i class="like bi bi-suit-heart-fill" style="font-size: 25px;"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title fw-bold">JAQUETA CROPPED</h5>
+                <h6 class="card-text fw-bolder">R$ 179,90</h6>
+                <p class="card-text">7x de R$ 25,70 no Cartão We Jeans</p>
+                <a href="jaqueta-jeans02F.html" class="btn btn-primary"><i class="bi bi-cart" style="font-size:20px;"></i> Adicionar ao carrinho</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 py-4">
+            <div class="card" style="position: relative;">
+              <img src="../img/produtos/pdts_feminino/jaquetas/pdt06_img01.jpeg" class="card-img-top" alt="jaqueta bolsos">
+              <div style="position: absolute; top: 10px; right: 10px;">
+                <i class="like bi bi-suit-heart-fill" style="font-size: 25px;"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title fw-bold">JAQUETA BOLSOS</h5>
+                <h6 class="card-text fw-bolder">R$ 239,90</h6>
+                <p class="card-text">7x de R$ 34,27 no Cartão We Jeans</p>
+                <a href="jaqueta-jeans03F.html" class="btn btn-primary"><i class="bi bi-cart" style="font-size:20px;"></i> Adicionar ao carrinho</a>
+              </div>
+            </div>
+          </div> 
+          <div class="col-12 col-sm-4 py-4">
+            <div class="card" style="position: relative;">
+              <img src="../img/produtos/pdts_masculino/jaquetas/pdt04_img01.jpeg" class="card-img-top" alt="jaqueta delavê">
+              <div style="position: absolute; top: 10px; right: 10px;">
+                <i class="like bi bi-suit-heart-fill" style="font-size: 25px;"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title fw-bold">JAQUETA DELAVÊ</h5>
+                <h6 class="card-text fw-bolder">R$ 219,90</h6>
+                <p class="card-text">7x de R$ 31,41 no Cartão We Jeans</p>
+                <a href="jaqueta-jeans01M.html" class="btn btn-primary"><i class="bi bi-cart" style="font-size:20px;"></i> Adicionar ao carrinho</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 py-4">
+            <div class="card" style="position: relative;">
+              <img src="../img/produtos/pdts_masculino/jaquetas/pdt05_img01.jpeg" class="card-img-top" alt="jaqueta destroyed">
+              <div style="position: absolute; top: 10px; right: 10px;">
+                <i class="like bi bi-suit-heart-fill" style="font-size: 25px;"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title fw-bold">JAQUETA DESTROYED</h5>
+                <h6 class="card-text fw-bolder">R$ 99,90</h6>
+                <p class="card-text">5x de R$ 19,98 no Cartão We Jeans</p>
+                <a href="jaqueta-jeans02M.html" class="btn btn-primary"><i class="bi bi-cart" style="font-size:20px;"></i> Adicionar ao carrinho</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 py-4">
+            <div class="card" style="position: relative;">
+              <img src="../img/produtos/pdts_masculino/jaquetas/pdt06_img01.jpeg" class="card-img-top" alt="jaqueta trucker">
+              <div style="position: absolute; top: 10px; right: 10px;">
+                <i class="like bi bi-suit-heart-fill" style="font-size: 25px;"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title fw-bold">JAQUETA TRUCKER</h5>
+                <h6 class="card-text fw-bolder">R$ 159,90</h6>
+                <p class="card-text">7x de R$ 22,84 no Cartão We Jeans</p>
+                <a href="jaqueta-jeans03M.html" class="btn btn-primary"><i class="bi bi-cart" style="font-size:20px;"></i> Adicionar ao carrinho</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section id="promo">
+    <div class="container">
+      <div class="newtext">
+        <h3 class="text-uppercase fw-bold">Ganhe 10% Off na sua primeira compra</h3>
+        <p class="fs-6 display-1">Aproveite essa <span>oferta especial</span> para renovar seu guarda-roupa com peças exclusivas e desfrutar do conforto e elegância que só a We Jeans pode oferecer!</p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Ex: exemplo@mail.com">
+        <button>CADASTRAR</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-sm-6">
+          <div class="box-one single-box">
+            <h1 class="fw-bold">WE JEANS</h1>
+            <p>Encontre seu estilo perfeito de jeans, jaquetas e muito mais. Conecte-se conosco nas redes sociais para ficar por dentro das últimas tendências e promoções exclusivas.</p>
+            <h3>Formas de Pagamento</h3>
+            <div class="card-area">
+              <img src="../img/visto.png" style="height: 50px;">
+              <img src="../img/mastercard.png" style="height: 50px;">
+              <img src="../img/hipercard.png" style="height: 50px;">
+              <img src="../img/pix.png" style="height: 50px;">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="box-two single-box"">
+            <h2>AJUDA</h2>
+            <ul>
+              <li style="line-height: 2.5;">Como Comprar</li>
+              <li style="line-height: 2.5;">Dúvidas Frequentes</li>
+              <li style="line-height: 2.5;">Mapa do Site</li>
+              <li style="line-height: 2.5;">Trocas e Devoluções</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="single-box">
+            <h2>SERVIÇOS</h2>
+            <ul>
+              <li>Serviços Cartão We Jeans</li>
+              <li><a href="../contato.html">Fale Conosco</a></li>
+              <li><a href="../trabalhe-conosco.html">Trabalhe Conosco</a></li>
+              <li>Código de defesa do consumidor</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="single-box">
+            <h2>CONTATO</h2>
+            <p>+555599999999</p>
+            <p>Segunda a Sexta, das 08h às 18h<br>Sábados, das 10h às 17h</p>
+            <h2>NOSSAS REDES SOCIAIS</h2>
+            <p class="socials">
+              <a href="https://www.instagram.com/almeid.amandha/"><img src="../img/instagram.png" style="height: 30px;"></a>
+              <a href="https://www.linkedin.com/in/amandha-almeida-b42a43234/"><img src="../img/linkedin.png" style="height: 30px;"></a>
+              <a href="https://github.com/AlmeidAmandha"><img src="../img/github.png" style="height: 30px;"></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    var mainImg = document.getElementById("mainImg");
+    var smallimg = document.getElementsByClassName("small-img");
+    smallimg[0].onclick = function(){
+      mainImg.src = smallimg[0].src;
+    }
+    smallimg[1].onclick = function(){
+      mainImg.src = smallimg[1].src;
+    }
+    smallimg[2].onclick = function(){
+      mainImg.src = smallimg[2].src;
+    }
+    smallimg[3].onclick = function(){
+      mainImg.src = smallimg[3].src;
+    }
+  </script>
+  <script type="text/javascript" src="../bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

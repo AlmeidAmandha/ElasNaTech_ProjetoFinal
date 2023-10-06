@@ -1,0 +1,169 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar {
+    z-index: 99;
+}
+#search:hover {
+    color: white;
+    background-color: orange;
+}
+#logo:hover {
+    letter-spacing: 2px;
+    font-size: 150%;
+}
+#link:hover {
+    color: orange;
+}
+.meio {
+    background-color: #eceaea;
+}
+.caminho-pagina {
+    padding-top: 12%;
+}
+.caminho-pagina a {
+    color: black;
+    text-decoration: none;
+}
+.caminho-pagina a:hover {
+    color: orange;
+}
+.armario {
+    margin-top: 0.5%;
+}
+.armario img:hover {
+    transform: scale(0.9) translateY(15px);
+    cursor: pointer;
+}
+.card {
+    border: none;
+}
+.card a {
+    background-color: black;
+    border: none;
+}
+.card a:hover {
+    background-color: orange;
+}
+.like {
+    cursor: pointer;
+}
+.like:hover {
+    color: orange;
+    font-size: 30px;
+}
+#promo {
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: orange;
+}
+#promo h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+#promo p {
+    font-size: 14px;
+    color: white;
+}
+#promo span { 
+    color: orangered;
+}
+#promo .form {
+    display: flex;
+    width: 40%;
+}
+#promo input {
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+}
+#promo button {
+    background-color: black;
+    color: white;
+    white-space: nowrap;
+    border: none;
+    border-radius: 4px;
+}
+#promo button:hover {
+    letter-spacing: 2px;
+}
+footer {
+    background: black;
+    padding: 85px 50px;
+}
+.single-content {
+    padding: 115px 0;
+    text-align: center;
+}
+.single-box p {
+    color: white;
+    line-height: 1.9;
+}
+.single-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: whitesmoke;
+}
+.single-box .card-area i {
+    color: whitesmoke;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.single-box ul {
+    list-style: none;
+    padding: 0;
+}
+.single-box ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    line-height: 2.5;
+    font-weight: 100;
+}
+.single-box h2 {
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 700;
+}
+#basic-addon2 {
+    color: whitesmoke;
+}
+.socials a {
+    font-size: 18px;
+    color: whitesmoke;
+    padding-right: 8px;  
+}
+.single-box a:hover {
+    color: orange;
+}
+@media (max-width: 766px) {
+    .single-box {
+        margin-bottom: 10%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .single-box {
+        margin-bottom: 10%;
+    }
+}
+@media (max-width: 991px) {
+    .caminho-pagina {
+       padding-top: 20%;
+    }
+    #promo .form{
+        display: flex;
+        width: 100%;
+    }
+}
+@media (min-width: 457px) and (max-width: 991px) {
+    .caminho-pagina {
+        padding-top: 10%;
+    }
+}
